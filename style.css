@@ -1,0 +1,213 @@
+/* Google Font */
+
+
+ .open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+/* shared style */
+
+.bg-color{
+    background-color: #FFF8F3;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.section-sub-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* nav section style */
+
+header{
+    background: url("images/developer.png") no-repeat, url("images/header_bg.png") no-repeat;
+    background-position: left top, bottom right;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 200px;
+}
+
+span{
+    color: #FD6E0A;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+ul li a{
+    text-decoration: none;
+}
+
+.btn1{
+    padding: 18px 35px;
+    background: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn2{
+    padding: 18px 35px;
+    border: 2px solid #FD6E0A;
+    color: #FD6E0A;
+    border-radius: 5px;
+}
+
+h1{
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.heading4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* banner section style */
+
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 180px 200px;
+}
+
+.banner-text p{
+    margin-bottom: 30px;
+}
+
+.banner-text .btn1{
+    margin-right: 30px;
+}
+
+/* Section style */
+
+main{
+    max-width: 1140px;
+    height: 550;
+    margin: 0 auto;
+}
+
+.section1{
+    padding: 150px 130px;
+    border-radius: 10px;
+    margin-bottom: 130px;
+}
+
+.about-section{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.items-section{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.section2{
+    margin-bottom: 130px;
+}
+.skills-section{
+    /* text-align: center; */
+    margin-bottom: 50px;
+}
+
+.skills{
+    display: flex;
+    gap: 25px;
+}
+
+.skill{
+    box-shadow: 0 0 10px;
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+.skill img{
+    margin-bottom: 30px;
+}
+
+.summery-section{
+    margin-bottom: 130px;
+}
+
+.summery-section h2{
+    margin-bottom: 30px
+}
+
+.summery{
+    display:flex;
+    gap: 70px;
+}
+
+.summery-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+/* footer section */
+
+footer{
+    padding: 130px 50px;
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+input[type="text"], input[type="email"] {
+    display: block;
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+textarea{
+width: 400px;
+height: 150px;
+
+}
+
+.form button{
+    display: block;
+}
