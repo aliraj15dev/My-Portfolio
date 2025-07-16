@@ -33,12 +33,16 @@
     }
     .section1{
     padding: 10px;
+    margin-bottom: 50px
     }
     .items-section{
         gap: 10px;
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 20px;
+    }
+    .section2{
+    margin-bottom: 50px;
     }
     .skills-section{
         padding: 10px;
@@ -59,6 +63,25 @@
     }
     .skill img{
     margin-bottom: 10px;
+    }
+    .summery-section{
+    margin-bottom: 50px;
+    }
+    .summery{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    }
+    .summery-btn{
+    margin-top: 20px;
+    }
+    footer{
+    padding: 20px;
+    margin: 0 auto;
+    }
+    .footer-section{
+    flex-direction: column;
+    gap: 50px;
     }
 
 }
