@@ -85,3 +85,22 @@
     }
 
 }
+
+/* tanlet device responsive */
+@media screen and (max-width:990px) {
+    nav{
+    padding: 30px 100px;
+    }
+    h1{
+    font-size: 60px;
+    }
+    .banner-container{
+    margin: 100px;
+    /* border: red solid; */
+    gap: 20px;
+    }
+    .banner-text .btn1{
+    margin-right: 20px;
+    }
+
+}
