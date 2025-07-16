@@ -1,0 +1,64 @@
+/* Responsive for mobile device */
+
+@media screen and (max-width:570px) {
+   header{
+            background-image: none;
+    }
+    nav{
+    padding: 20px;
+    }
+    nav ul li{
+    margin-right: 20px;
+    }
+    .btn1{
+    padding: 10px 20px;
+    }
+    .btn2{
+    padding: 10px 20px;
+
+    }
+
+    .banner-container{
+    flex-direction: column;
+    margin: 20px;
+    padding: 0 20px;
+    }
+
+    h1{
+    font-size: 50px;
+    }
+    .banner-image img{
+    width: 500px;
+    /* border: solid red; */
+    }
+    .section1{
+    padding: 10px;
+    }
+    .items-section{
+        gap: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+    .skills-section{
+        padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+
+    .skills{
+    flex-direction: column;
+    gap: 20px;
+    /* text-align: center; */
+    }
+
+    .skill{
+    padding: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    }
+    .skill img{
+    margin-bottom: 10px;
+    }
+
+}
