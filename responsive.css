@@ -121,7 +121,17 @@
     gap: 20px;
     }
     .banner-text .btn1{
-    margin-right: 20px;
+    margin-right: 0;
+}
+    .button .btn1, .btn2{
+        padding: 18px 10px;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 150px;
+        /* border: red solid; */
     }
     .section1{
     padding: 30px 50px;
