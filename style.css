@@ -12,6 +12,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -115,7 +116,7 @@ h1{
     margin-right: 30px;
 }
 
-/* Section style */
+/* about Section style */
 
 main{
     max-width: 1140px;
